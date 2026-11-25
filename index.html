@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0C12">
+<meta name="description" content="Aurora — быстрый мессенджер с каналами, группами, историями и реакциями">
+<title>Aurora — мессенджер</title>
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Aurora">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div class="aurora-bg" aria-hidden="true">
+    <span class="aurora-blob aurora-blob--1"></span>
+    <span class="aurora-blob aurora-blob--2"></span>
+    <span class="aurora-blob aurora-blob--3"></span>
+  </div>
+
+  <main id="app" class="app-root" aria-live="polite"></main>
+
+  <div id="sheet-host" class="sheet-host" hidden></div>
+  <div id="modal-host" class="modal-host" hidden></div>
+  <div id="toast-host" class="toast-host" aria-live="polite"></div>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
